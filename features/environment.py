@@ -5,7 +5,11 @@ from selenium.webdriver.chrome.service import Service
 # ---------------------- GLOBAL HOOKS ----------------------
 
 def before_all(context):
+<<<<<<< HEAD
     print("\n Test execution started for all features")
+=======
+    print("\n Test execution started lets for all features")
+>>>>>>> fb8edf30b99e8ec987120708dbceef00b0fc198d
     context.global_data = {}
 
 def after_all(context):
@@ -36,7 +40,11 @@ def after_scenario(context, scenario):
 # ---------------------- STEP LEVEL HOOKS ----------------------
 
 def before_step(context, step):
+<<<<<<< HEAD
     print(f"️ Starting Step: {step.name}")
+=======
+    print(f" Starting Step: {step.name}")
+>>>>>>> fb8edf30b99e8ec987120708dbceef00b0fc198d
 
 def after_step(context, step):
     if step.status == "passed":
