@@ -5,7 +5,7 @@ from selenium.webdriver.chrome.service import Service
 # ---------------------- GLOBAL HOOKS ----------------------
 
 def before_all(context):
-    print("\n Test execution started for all features")
+    print("\n Test execution started lets for all features")
     context.global_data = {}
 
 def after_all(context):
