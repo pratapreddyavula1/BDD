@@ -15,7 +15,7 @@ def after_all(context):
 # ---------------------- FEATURE LEVEL HOOKS ----------------------
 
 def before_feature(context, feature):
-    print(f"\n Starting Feature: {feature.name}")
+    print(f"\n Starting Feature comm on: {feature.name}")
 
 def after_feature(context, feature):
     print(f" Completed Feature: {feature.name}")
